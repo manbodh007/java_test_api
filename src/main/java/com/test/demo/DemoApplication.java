@@ -18,10 +18,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class DemoApplication {
+	private static final String MESSAGE = "Hello World!";
 
 	public static void main(String[] args) throws ExecutionException, InterruptedException {
-		SpringApplication.run(DemoApplication.class, args);
-
+//		SpringApplication.run(DemoApplication.class, args);
+		System.out.println(MESSAGE);
 	}
 
 }
